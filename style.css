@@ -1,0 +1,28 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+html,
+body{
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.mscFoll{
+    border: 1px solid rgb(163, 163, 163);
+    transform: translate(-50%, -50%);
+}
+.HH2{
+    text-transform: uppercase;
+}
+#anchor{
+    z-index: 2;
+}
+.dot{
+    z-index: 2;
+}
