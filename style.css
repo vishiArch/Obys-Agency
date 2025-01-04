@@ -13,7 +13,7 @@ body{
     display: none;
 }
 
-.mscFoll{
+.follower{
     border: 1px solid rgb(163, 163, 163);
     transform: translate(-50%, -50%);
 }
@@ -25,4 +25,22 @@ body{
 }
 .dot{
     z-index: 2;
+}
+.imgFirst{
+    z-index: 1;
+    opacity: 0;
+    transform: translate(-50%, -50%);
+}
+h1{
+    z-index: 2;
+}
+.ontoHover1:hover{
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
+}
+.ontoHover2:hover{
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #ffffff;
 }
