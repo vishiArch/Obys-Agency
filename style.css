@@ -1,46 +1,100 @@
-
-*{
+* {
     margin: 0;
     padding: 0;
 }
+
 html,
-body{
+body {
     height: 100%;
     width: 100%;
     box-sizing: border-box;
 }
+
 ::-webkit-scrollbar {
     display: none;
 }
 
-.follower{
+.follower {
     border: 1px solid rgb(163, 163, 163);
     transform: translate(-50%, -50%);
+    z-index: 5;
 }
-.HH2{
+
+.HH2 {
     text-transform: uppercase;
 }
-#anchor{
+
+#anchor {
     z-index: 2;
 }
-.dot{
+
+.dot {
     z-index: 2;
 }
-.imgFirst{
+
+.imgFirst {
     z-index: 1;
     opacity: 0;
     transform: translate(-50%, -50%);
 }
-h1{
+
+h1 {
     z-index: 2;
 }
-.ontoHover1:hover{
+
+.ontoHover1:hover {
     text-decoration: none;
     color: transparent;
     -webkit-text-stroke: 1px #ffffff;
 }
-.ontoHover2:hover{
+
+.ontoHover2:hover {
     text-decoration: none;
     color: transparent;
     -webkit-text-stroke: 1px #ffffff;
+}
+
+.playBTN {
+    z-index: 3;
+    transform: translate(-50%, -50%);
+}
+
+.page-1 {
+    overflow: hidden;
+}
+
+.imgContainer {
+    position: relative;
+    height: 73vh;
+    width: 78%;
+}
+
+.image3,
+.image4 {
+    height: 100%;
+    width: 100%;
+}
+
+.image4 {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.imgContainer2 {
+    position: relative;
+    height: 86vh;
+    width: 88%;
+}
+
+.image5,
+.image6 {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+.image6 {
+    position: absolute;
+    top: 0;
+    left: 0;
 }

@@ -13,8 +13,7 @@ var SEC = document.querySelector(".secOne")
 var ANC = document.querySelectorAll(".anchor")
 
 window.addEventListener("mousemove", function (dets) {
-  follower.style.left = dets.x + "px"
-  follower.style.top = dets.y + "px"
+  follower.style.transform = `translate(${dets.x}px, ${dets.y}px)`;
 })
 
 Shery.makeMagnet(".anchor" /* Element to target.*/, {
@@ -58,13 +57,13 @@ var heading = document.querySelectorAll(".imgBox")
 heading.forEach(function (elem2) {
   elem2.addEventListener("mouseenter", function (dets) {
     image.style.opacity = 1;
-    image.style.transition = "all 0.3s ease";  
+    image.style.transition = "all 0.2s ease";
   });
   elem2.addEventListener("mouseleave", function () {
     image.style.opacity = 0;
-    image.style.transition = "all 0.3s ease";
+    image.style.transition = "all 0.2s ease";
   });
-  elem2.addEventListener("mousemove", function(dets){
+  elem2.addEventListener("mousemove", function (dets) {
     image.style.left = dets.x + "px";
     image.style.top = dets.y + "px";
   })
