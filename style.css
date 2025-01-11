@@ -45,18 +45,18 @@ h1 {
 .ontoHover1:hover {
     text-decoration: none;
     color: transparent;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 2px #ffffff;
 }
 
 .ontoHover2:hover {
     text-decoration: none;
     color: transparent;
-    -webkit-text-stroke: 1px #ffffff;
+    -webkit-text-stroke: 2px #ffffff;
 }
 
 .playBTN {
-    z-index: 3;
-    transform: translate(-50%, -50%);
+    z-index: 4;
+    /* transform: translate(-50%, -50%); */
 }
 
 .page-1 {
@@ -102,9 +102,42 @@ h1 {
     position: absolute;
     z-index: 99;
 }
+.goDown:hover{
+    border: none;
+}
+.goDown:hover i{
+    display: none;
+}
 .goDown:hover .goDownChild{
     height: 100%;
     width: 100%;
     border-radius: 50%;
     background-color: bisque;
+    transition: all ease 0.2s;
+}
+p{
+   z-index: 99;
+   opacity: 0;
+}
+
+/* hero img code */
+
+.imgWrapper{
+    position: relative;
+    left: 30%;
+    height: 80vh;
+    width: 70%;
+    background-color: #fff;
+    overflow: hidden;
+}
+.imgSec{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+}
+.videoOne{
+    position: absolute;
+    height: 100%;
+    width: 100%;
 }
