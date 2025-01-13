@@ -56,9 +56,10 @@ h1 {
 
 .playBTN {
     z-index: 4;
-    /* transform: translate(-50%, -50%); */
 }
-
+context{
+    font-family: "Bebas Neue", serif;
+}
 .page-1 {
     overflow: hidden;
 }
@@ -83,7 +84,7 @@ h1 {
 .imgContainer2 {
     position: relative;
     height: 86vh;
-    width: 88%;
+    width: 92%;
 }
 
 .image5,
@@ -124,11 +125,13 @@ p{
 
 .imgWrapper{
     position: relative;
-    left: 30%;
+    left: 35%;
     height: 80vh;
-    width: 70%;
-    background-color: #fff;
+    width: 65%;
     overflow: hidden;
+}
+.imgWrapper:hover .follower{
+    opacity: 0;
 }
 .imgSec{
     height: 100%;
@@ -140,4 +143,7 @@ p{
     position: absolute;
     height: 100%;
     width: 100%;
+}
+.childd{
+    border-bottom: 1px solid white;
 }
