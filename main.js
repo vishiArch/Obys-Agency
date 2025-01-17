@@ -88,3 +88,28 @@ document.querySelector(".goDown").addEventListener("mouseleave", function () {
   para.innerHTML = ""
 })
 
+
+gsap.to(".text", {
+  xPercent: -100,
+  duration: 20,
+  repeat: -1,
+  ease: "none"
+})
+gsap.to(".text2", {
+  xPercent: 100,
+  duration: 20,
+  repeat: -1,
+  ease: "none"
+})
+gsap.to(".text3", {
+  xPercent: -100,
+  duration: 20,
+  repeat: -1,
+  ease: "none"
+})
+gsap.to(".text4", {
+  xPercent: 100,
+  duration: 20,
+  repeat: -1,
+  ease: "none"
+})

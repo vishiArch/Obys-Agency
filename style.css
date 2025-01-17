@@ -57,9 +57,11 @@ h1 {
 .playBTN {
     z-index: 4;
 }
-context{
+
+context {
     font-family: "Bebas Neue", serif;
 }
+
 .page-1 {
     overflow: hidden;
 }
@@ -81,6 +83,7 @@ context{
     top: 0;
     left: 0;
 }
+
 .imgContainer2 {
     position: relative;
     height: 86vh;
@@ -99,51 +102,77 @@ context{
     top: 0;
     left: 0;
 }
+
 .goDownChild {
     position: absolute;
     z-index: 99;
 }
-.goDown:hover{
+
+.goDown:hover {
     border: none;
 }
-.goDown:hover i{
+
+.goDown:hover i {
     display: none;
 }
-.goDown:hover .goDownChild{
+
+.goDown:hover .goDownChild {
     height: 100%;
     width: 100%;
     border-radius: 50%;
     background-color: bisque;
     transition: all ease 0.2s;
 }
-p{
-   z-index: 99;
-   opacity: 0;
+
+p {
+    z-index: 99;
+    opacity: 0;
 }
 
 /* hero img code */
 
-.imgWrapper{
+.imgWrapper {
     position: relative;
     left: 35%;
     height: 80vh;
     width: 65%;
     overflow: hidden;
 }
-.imgWrapper:hover .follower{
+
+.imgWrapper:hover .follower {
     opacity: 0;
 }
-.imgSec{
+
+.imgSec {
     height: 100%;
     width: 100%;
     position: absolute;
     z-index: 2;
 }
-.videoOne{
+
+.videoOne {
     position: absolute;
     height: 100%;
     width: 100%;
 }
-.childd{
+
+.childd {
     border-bottom: 1px solid white;
+}
+
+.kid1 {
+    border-bottom: 1px solid white;
+}
+
+.aboutSection {
+    border-bottom: 1px solid white;
+}
+
+text {
+    text-decoration: none;
+    color: transparent;
+    -webkit-text-stroke: 1px #B1B1B1;
+    white-space: nowrap;
+    font-family: 'Playfair Display', serif;
+    font-style: italic;
 }
