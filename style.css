@@ -176,3 +176,56 @@ text {
     font-family: 'Playfair Display', serif;
     font-style: italic;
 }
+/* Base styles for positioning */
+.page-8 {
+    position: relative;
+  }
+  
+  text {
+    display: block;
+    position: relative;
+  }
+  
+  /* Animation for the first text: moves 10px right then 10px left */
+  @keyframes moveText1 {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(40px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Animation for the second text: moves 10px left then 10px right */
+  @keyframes moveText2 {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-35px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+  
+  /* Apply animations */
+  .text {
+    animation: moveText1 2s infinite;
+  }
+  
+  .text2 {
+    animation: moveText2 2s infinite;
+  }
+  
+  .text3 {
+    animation: moveText1 2s infinite;
+  }
+  
+  .text4 {
+    animation: moveText2 2s infinite;
+  }
+  
